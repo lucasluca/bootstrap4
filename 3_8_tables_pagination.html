@@ -82,7 +82,8 @@
         <!--########################START HERE#########################-->
         
         <!-- TABLE -->
-        <table>
+        <h1>Normal Table</h1>
+        <table class="table">
             <thead>
                 <tr>
                     <th>#</th>
@@ -114,7 +115,8 @@
         </table>
 
         <!-- INVERSE TABLE -->
-        <table>
+        <h1>Inverse table</h1>
+        <table class="table table-inverse">
             <thead>
                 <tr>
                     <th>#</th>
@@ -147,8 +149,9 @@
 
         <!-- TABLE HEAD INVERSE -->
         <!-- TABLE -->
-        <table>
-            <thead>
+        <h1>Inverse heading</h1>
+        <table class="table">
+            <thead class="thead-inverse"> 
                 <tr>
                     <th>#</th>
                     <th>First Name</th>
@@ -179,7 +182,8 @@
         </table>
 
         <!-- STRIPED TABLE -->
-        <table>
+        <h1>striped table</h1>
+        <table class="table table-striped"> 
             <thead>
                 <tr>
                     <th>#</th>
@@ -211,12 +215,13 @@
         </table>
 
         <!-- BORDERED TABLE -->
-        <table>
+        <h1>Bordered Table</h1>
+        <table class="table table-bordered">
             <thead>
                 <tr>
                     <th>#</th>
                     <th>First Name</th>
-                    <th>Last Name</th>
+                    <th>Last Name</th> 
                     <th>Email</th>
                 </tr>
             </thead>
@@ -244,7 +249,8 @@
 
         <!-- HOVERABLE -->
         <!-- TABLE -->
-        <table>
+        <h1>Hoverable</h1>
+        <table class="table table-hover">
             <thead>
                 <tr>
                     <th>#</th>
@@ -276,7 +282,8 @@
         </table>
 
         <!-- SMALL TABLE -->
-        <table>
+        <h1>Table pequena</h1>
+        <table class="table table-sm">
             <thead>
                 <tr>
                     <th>#</th>
@@ -292,7 +299,7 @@
                     <td>Doe</td>
                     <td>jdoe@gmail.com</td>
                 </tr>
-                <tr>
+                <tr class="table-success"> 
                     <th scope="row">2</th>
                     <td>Will</td>
                     <td>Johnson</td>
@@ -311,12 +318,12 @@
 
         <!-- PAGINATION -->
         <nav>
-            <ul>
-                <li><a href="#">Previous</a></li>
-                <li><a href="#">1</a></li>
-                <li><a href="#">2</a></li>
-                <li><a href="#">3</a></li>
-                <li><a href="#">Next</a></li>
+            <ul class="pagination justify-content-center">
+                <li class="page-item page-link"><a href="#">Previous</a></li>
+                <li class="page-item"> <a class="page-link" href="#">1</a></li>
+                <li class="page-item"><a class="page-link"  href="#">2</a></li>
+                <li class="page-item page-link"><a href="#">3</a></li>
+                <li class="page-item page-link"><a href="#">Next</a></li>
             </ul>
         </nav>
 
