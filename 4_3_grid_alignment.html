@@ -82,37 +82,37 @@
     <!--########################START HERE#########################-->
 
     <!-- VERTICAL ALIGNMENT -->
-    <div class="container">
-        <div class="row" style="height:200px;border:1px #333 solid">
-            <div class="col">
+    <div class="container bg-warning">
+        <div class="row align-items-start" style="height:200px;border:1px #333 solid">
+            <div class="col bg-info">
                 Top Aligned Text
             </div>
-            <div class="col">
+            <div class="col bg-info">
                 Top Aligned Text
             </div>
-            <div class="col">
+            <div class="col bg-info">
                 Top Aligned Text
             </div>
         </div>
-        <div class="row" style="height:200px;border:1px #333 solid">
-            <div class="col">
+        <div class="row align-items-center" style="height:200px;border:1px #333 solid">
+            <div class="col bg-danger">
                 Middle Aligned Text
             </div>
-            <div class="col">
+            <div class="col bg-danger">
                 Middle Aligned Text
             </div>
-            <div class="col">
+            <div class="col bg-danger">
                 Middle Aligned Text
             </div>
         </div>
-        <div class="row" style="height:200px;border:1px #333 solid">
-            <div class="col">
+        <div class="row align-items-end" style="height:200px;border:1px #333 solid">
+            <div class="col bg-success">
                 Bottom Aligned Text
             </div>
-            <div class="col">
+            <div class="col bg-success">
                 Bottom Aligned Text
             </div>
-            <div class="col">
+            <div class="col bg-success">
                 Bottom Aligned Text
             </div>
         </div>
@@ -121,15 +121,15 @@
     <br><br>
 
     <!-- VERTICAL ALIGN INDIVIDUAL COLS -->
-    <div class="container">
+    <div class="container bg-primary">
         <div class="row" style="height:200px;border:1px #333 solid">
-            <div class="col">
+            <div class="col align-self-start bg-success">
                 Top Aligned
             </div>
-            <div class="col">
+            <div class="col align-self-center bg-success">
                 Middle Aligned
             </div>
-            <div class="col">
+            <div class="col align-self-end bg-success">
                 Bottom Aligned
             </div>
         </div>
@@ -138,44 +138,44 @@
     <br><br>
 
     <!-- HORIZONTAL ALIGNED COLS -->
-    <div class="container">
-        <div class="row" style="height:200px;border:1px #333 solid">
-            <div class="col-4">
+    <div class="container bg-primary">
+        <div class="row bg-warning justify-content-start" style="height:200px;border:1px #333 solid">
+            <div class="bg-success col-4">
                 Left Aligned Text
             </div>
-            <div class="col-4">
+            <div class="col-4 bg-info">
                 Left Aligned Text
             </div>
         </div>
-        <div class="row" style="height:200px;border:1px #333 solid">
-            <div class="col-4">
+        <div class="row bg-warning justify-content-center" style="height:200px;border:1px #333 solid">
+            <div class="col-4 bg-success">
                 Center Aligned Text
             </div>
-            <div class="col-4">
+            <div class="col-4 bg-info">
                 Center Aligned Text
             </div>
         </div>
-        <div class="row" style="height:200px;border:1px #333 solid">
-            <div class="col-4">
+        <div class="row bg-warning justify-content-end" style="height:200px;border:1px #333 solid">
+            <div class="col-4 bg-success">
                 Right Aligned Text
             </div>
-            <div class="col-4">
+            <div class="col-4 bg-info">
                 Right Aligned Text
             </div>
         </div>
-        <div class="row" style="height:200px;border:1px #333 solid">
-            <div class="col-4">
+        <div class="row bg-warning justify-content-around" style="height:200px;border:1px #333 solid">
+            <div class="col-4 bg-success">
                 Content Around
             </div>
-            <div class="col-4">
+            <div class="col-4 bg-info">
                 Content Around
             </div>
         </div>
-        <div class="row " style="height:200px;border:1px #333 solid">
-            <div class="col-4">
+        <div class="row bg-warning justify-content-between" style="height:200px;border:1px #333 solid">
+            <div class="col-4 bg-success">
                 Content Between
             </div>
-            <div class="col-4">
+            <div class="col-4 bg-info">
                 Content Between
             </div>
         </div>
@@ -184,15 +184,53 @@
     <br><br>
 
     <!-- COLUMN WRAPPING & NO GUTTERS-->
-    <div class="row">
+    <div class="row bg-primary">
         <div class="col-9">
-
+            <div class="card bg-success">
+                <div class="card-block">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id, ex.</p>
+                </div>
+            </div>
         </div>
         <div class="col-4">
-
+            <div class="card bg-info">
+                <div class="card-block">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id, ex.</p>
+                </div>
+            </div>
         </div>
         <div class="col-6">
-            
+            <div class="card bg-warning">
+                <div class="card-block">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id, ex.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <br><br>
+
+    <div class="row bg-primary no-gutters">
+        <div class="col-9 align-self-center">
+            <div class="card bg-success">
+                <div class="card-block">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id, ex.</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-4">
+            <div class="card bg-info">
+                <div class="card-block">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id, ex.</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-6">
+            <div class="card bg-warning">
+                <div class="card-block">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id, ex.</p>
+                </div>
+            </div>
         </div>
     </div>
   </div>
